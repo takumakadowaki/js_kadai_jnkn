@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんアプリ</title>
+    <style>
+        #state{
+          font-weight: bold;
+          font-size: 50px;
+          color: rgb(64, 13, 185);
+          margin: 10px 0;
+          text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <!-- <div class="content"> -->
+        
+    </div>
+    <div id="state" >じゃんけん・・・</div>
+    <div style="padding: 15px; background: #ff"></div>
+    
+    <div>あなた:<span id="player"></span></div>
+    <div style="padding: 15px; background: #ff"></div>
+  
+    <button id="gu"><img src="guu.png" alt=""></button>
+    <button id="cho"><img src="choki.png" alt=""></button>
+    <button id="pa"><img src="paa.png" alt=""></button>
+    <div style="padding: 15px; background: #ff"></div>
+    
+    <div>あいて:<span id="cpu"></span></div>
+    <div style="padding: 30px; background: #ff"></div>
+    <button id="reset">reset</button>
+<!-- <img src="win.jpg" alt=""> -->
+    
+    <script src="main.js"></script>
+</body>
+</html>
